@@ -1,0 +1,36 @@
+public class Vehicle
+
+{
+private String type;
+//private int year;
+//private String model;
+private int Wheels;
+
+
+
+public Vehicle (String atype, String aWheel)
+
+{
+  type = atype;
+  Wheels = aWheel;
+}
+
+public String getType()
+	{
+		return type;
+	}
+
+public int getwheels()
+	{
+		return Wheels;
+	}
+//public String getamodel()
+//{
+//	return model;
+//}
+//public String getyear()
+//	{
+//		return year;
+//	}
+
+}

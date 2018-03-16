@@ -1,0 +1,20 @@
+public class Vehicle {
+	
+private String Veh-Type;
+private int Veh-Wheels;
+
+
+public Vehicle (String atype, int awheels) {
+  Veh-Type = atype;
+  Veh-Wheels = awheels;
+}
+
+public String getType() {
+		return Veh-Type;
+}
+
+public int getwheels() {
+		return Veh-Wheels;
+}
+
+}

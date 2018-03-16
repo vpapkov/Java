@@ -1,0 +1,19 @@
+public class Cars extends Vehicle
+{
+	private String model;
+	private String maker;
+	private String year;	
+	
+	public Cars (String amodel, String amaker, String ayear)
+	{
+	super(amodel);	
+	model = amodel;
+	maker = amaker;
+	year = ayear;
+	}
+	
+	public void Drive()
+	{
+		System.out.println("This car can drive");
+	}
+}

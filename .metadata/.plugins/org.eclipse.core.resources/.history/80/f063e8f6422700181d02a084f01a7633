@@ -1,0 +1,21 @@
+
+public class Vehicle
+public class Dog extends Animal
+{
+	private String model;
+	private String maker;
+	private String Year;	
+	
+	public Dog(String amodel, String amaker, String aYear)
+	{
+	super(aType);	
+	model = amodel;
+	maker = amaker;
+	Year = aYear;
+	}
+	
+	public void Drive()
+	{
+		System.out.println("This car can drive");
+	}
+}

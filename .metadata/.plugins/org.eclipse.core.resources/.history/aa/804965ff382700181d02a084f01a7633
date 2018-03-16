@@ -1,0 +1,15 @@
+
+public class TestPoint
+{
+
+	public static void main(String[] args)
+	{
+		Point p = new Point(5.0, 12.0);
+		double distance = p.distanseFromOregin();
+		System.out.println("Distance is " + distance);
+		
+		Point p2 = new Point();
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class VehicleNew
+
+{
+private String type;
+
+public VehicleNew (String aType)
+
+{
+ type = aType;
+}
+
+public String getType()
+	{
+		return type;
+	}
+
+}

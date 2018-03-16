@@ -1,0 +1,27 @@
+public class Cars extends Vehicle
+{
+	private String model;
+	private String maker;
+	private String year;	
+	
+	public Cars (String aType, int theWheels,  String amodel , String amaker, String ayear)
+	{
+	super(aType, theWheels);	
+	model = amodel;
+	maker = amaker;
+	year = ayear;
+	}
+	
+	public String getModel()
+	{
+		return model;
+	}
+	public String getMaker()
+	{
+		return maker;
+	}
+	public String getyear()
+	{
+		return year;
+	}
+}

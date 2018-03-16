@@ -1,0 +1,22 @@
+
+public class TestCar
+
+{
+
+	public static void main (String[] arg)
+	
+	{
+		Cars a = new Cars("Camry", 4, "Corrolla", "4", "1997");
+		System.out.println("1 " + a.getType() + a.getyear() + a.getModel());
+		
+		Cars d = new Cars("RAV4", 6, "7777", "1998", "6"); 
+		System.out.println("2 " + d.getType());
+
+		
+		Cars MyCar = new Cars("Munyfacktory3", 6, "7777", "1998", "6"); 
+		System.out.println("3 " + MyCar.getType());
+		
+//		Cars MyCar = new Cars("Munyfacktory8", 6, "7777", "1998", "6"); 
+//		System.out.println("3 " + MyCar.getType());
+	}
+}
