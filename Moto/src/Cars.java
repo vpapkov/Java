@@ -1,6 +1,5 @@
 public class Cars extends Vehicle
 {
-	private int aWheels;
 	private String model;
 	private String maker;
 	private String year;	
